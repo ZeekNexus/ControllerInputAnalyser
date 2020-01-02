@@ -1,0 +1,85 @@
+#container {
+    width:100%;
+    height:100%;
+    font-size:1em;
+    text-align:left;
+    padding:0px;
+}
+    #contentheader {
+        font-weight: bold;
+        outline:1px;
+        outline-style: solid;
+        outline-color: black;
+    }
+        #title {
+            padding-top:1px;
+            font-size:1.8em;
+            height:8%;
+            width:100%;
+            text-align:center;
+            outline:1px;
+            outline-style: solid;
+            outline-color: black;
+        }
+
+        .controllerdata {
+            display: table-cell;
+            padding-left:0.3vh;
+            padding-right:0.3vh;
+            outline:0.5px;
+            outline-style: solid;
+            outline-color: black;
+        }
+
+        #controllerdatacontainer {
+            height:7%;
+            width:100%;
+            display: table;
+        }
+            #cnamecontainer {
+                width:55%;
+            }
+            #conntrollername {   
+            }
+
+            #cconncontainer {
+                width:30%;
+                text-align:center;
+            }
+            #controllerconnected {                
+            }
+
+            #cportcontainer {
+                width:15%;
+            }
+            #controllerport {
+            }
+        
+    #contentbody {     
+        text-align:center;
+    }        
+        .buttontitle {
+            font-weight:bold;
+            outline:0.5px;
+            outline-style: solid;
+            outline-color: black;
+            margin:0.1vh;
+        }
+
+        #buttondata {
+            float:left;
+            width:50%;
+            height:83%;
+            outline:0.5px;
+            outline-style: solid;
+            outline-color: black;
+        }
+
+        #axesdata {
+            float:right;
+            width:50%;
+            height:83%;
+            outline:0.5px;
+            outline-style: solid;
+            outline-color: black;
+        }
